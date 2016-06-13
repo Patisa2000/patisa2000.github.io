@@ -1,0 +1,149 @@
+
+.conteiner {
+    width: 920px;
+}
+
+.block-center {
+    margin: 0 auto;
+}
+
+#encabezado {
+    height: 125px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#titulo {
+    margin-top: 0;
+    text-align: center;
+    padding-top: 15px;
+    height: 70px;
+}
+
+#recetas-notas {
+    width: 920px;
+    min-height: 300px;
+    display: inline-block;
+    float: left;
+    padding-top: 40px;
+}
+
+#recetas-notas article
+{
+  display: flex;
+        background-image: url('../imagenes/separador-nota-secundaria.png');
+        background-repeat: no-repeat;
+        background-position: bottom;
+        padding-bottom: 40px;
+        margin-bottom: 20px;
+    
+}
+
+.receta {
+    position: relative;
+    bottom: -6px;
+    padding-left: 5px;
+}
+
+.titulo-recetas {
+    color: firebrick;
+    font-size: 30px;
+    color: firebrick;
+    font-style: italic;
+    
+}
+
+#imagen-principal {
+    margin: 20px 0;
+    box-shadow: 0 0 15px darkgray;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    
+}
+
+#logo-recetas {
+    margin-bottom: 20px;
+}
+
+.ver-receta {
+    margin-top: 1.5em;
+    background-color: brown;
+    display: inline-block;
+    padding: 3px;
+    box-shadow: 0 2px 3px darkgray;
+    transition: 0.5px;
+    margin-bottom: 10px;
+}
+
+.ver-receta div{
+    padding: 2px 20px !important;
+    border: 1px solid black;
+    
+}
+
+.ver-receta:hover{
+    background-color: darkgoldenrod;
+    
+}
+
+.ver-receta p{
+    font-family: "calibri";
+    color: white;
+    font-size: 0.9em;
+}
+
+
+
+.descripcion-titulo {
+    font-style: italic;
+}
+
+.descripcion {
+    text-align: justify;
+    margin-top: 25px;
+    padding-bottom: 6px;
+    line-height: 0.9em;
+    font-size: 14px;
+}
+
+  .separador{
+        padding: 5px 0;
+        margin: 20px 0;
+      position: relative;
+      text-align: center;
+    } 
+#pie {
+    height: 100px;
+    padding-top: 50px;
+}
+
+
+    
+
+
+
+.text-center {
+    text-align: center;
+}
+
+.pie {
+    border-bottom: 3px double lightgray;
+     border-top: 3px double lightgray;
+    padding: 5px;
+    text-align: center;
+}
+
+#anuncios {
+    width: 210px;
+    padding: 5px;
+    float: right;
+}
+
+.anuncios-1 {
+    margin-left: 20px;
+}
+
+#flexible {
+    display: flex;
+}
