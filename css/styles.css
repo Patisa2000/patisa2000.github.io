@@ -142,8 +142,49 @@
 
 .anuncios-1 {
     margin-left: 20px;
+    margin-bottom: 20px;
 }
 
 #flexible {
     display: flex;
 }
+
+ #barra_navegacion {
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        background-position: center;
+        align-items: center;
+     background-color: lightpink;
+    
+     
+        
+    }
+
+    #barra_navegacion>ul>li >a:hover {
+        background-color: antiquewhite;
+        transition: 0.5s;
+         }
+    
+    #barra_navegacion> ul ul{
+        display: none;
+        position: relative;
+        
+    }
+
+  #barra_navegacion>ul>li {
+       display: inline-block;
+      position: relative;
+    } 
+    
+    #barra_navegacion>ul ul li {
+        display: block;
+    } 
+
+    #barra_navegacion a{
+        color: black;
+        padding: 5px 20px;
+        text-decoration: none;
+        display: flex;
+        
+    }
